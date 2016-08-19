@@ -4,7 +4,7 @@
 
 Now that we have learned about ADTs and how to enable ADTs for custom portlets, lets create an ADT. The user interface for creating ADTs can be found by following the gif below or by navigating to:
 
-<img src="/images/02-creating-and-utilizing-in-your-portlets_navigating-to-adt-user-interface.gif" />
+<img src="images/02-creating-and-utilizing-in-your-portlets_navigating-to-adt-user-interface.gif" />
 
 * Site Admin* → Configuration → Application Display Templates
 
@@ -12,7 +12,7 @@ Now that we have learned about ADTs and how to enable ADTs for custom portlets, 
 
 Now that we are looking at the user interface for ADTs lets add a Navigation Menu ADT. Click on the button in the bottom right corner of the screen to bring up a list of available ADTs and select, 'Navigation Menu'. See gif below as an example:
 
-<img src="/images/02-creating-and-utilizing-in-your-portlets_adding-new-adt.gif" />
+<img src="images/02-creating-and-utilizing-in-your-portlets_adding-new-adt.gif" />
 
 ## Adding Example ADT for Navigation Menu Portlet
 
@@ -193,4 +193,4 @@ This will result in a collapsible navigation of the public pages on the site. Th
 
 Once we have created our ADT, lets us it on a Navigation Menu Portlet. Navigate back to you public pages and deploy the Navigation Menu portlet to the page. Select the `Configuration` option from portlet options menu (the three dots in the top right corner of portlet). You'll see the `Display Template` option, select your ADT and save the changes. You should now see your ADT in action. Please see the gif below for a walkthrough.
 
-<img src="/images/02-creating-and-utilizing-in-your-portlets_adding-code-and-selecting-adt.gif" />
+<img src="images/02-creating-and-utilizing-in-your-portlets_adding-code-and-selecting-adt.gif" />
