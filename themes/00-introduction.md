@@ -23,7 +23,7 @@ They exist as npm packages and can be published to the npm registry for easy sha
 
 ## Lexicon
 
-TODO
+Lexicon is Liferay's frontend CSS framework, created to unify the user interface across 7.0. It provides the core CSS resources necessary to create a consistent UI across Liferay Portal's web platform. Based on Bootstrap 3, it also serves as a gateway for customizing Liferay Portal's frontend through third party themes or your own custom theme.
 
 ## Lexicon Customizer
 
