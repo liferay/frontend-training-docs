@@ -29,6 +29,10 @@ Lexicon is Liferay's frontend CSS framework, created to unify the user interface
 
 Lexicon Customizer is a desktop application intended for customizing Bootstrap and Lexicon scss variables for modifying the look and feel of Bootstrap and Lexicon components.
 
-## Importing Resources
+## Theme Contributors
 
 TODO
+
+## Importing Resources
+
+The Resources Importer allows developers to deploy their themes with predefined content. This is useful for showcasing a theme, and also provides a site template which can be used for creating new sites with a predefined look and feel.
