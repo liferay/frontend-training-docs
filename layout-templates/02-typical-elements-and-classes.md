@@ -63,7 +63,7 @@ Let's take a close look at the first column of the previous example and the vari
 
 - `portlet-column-content portlet-column-content-first`
 
-	Additional classes added to the content element, classes match the parent `div`'s classes with `-content` appeneded.
+	Additional classes added to the content element, classes match the parent `div`'s classes with `-content` appended.
 
 ## Modifying Template Breakpoints
 
