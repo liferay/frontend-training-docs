@@ -31,7 +31,7 @@ Lexicon Customizer is a desktop application intended for customizing Bootstrap a
 
 ## Theme Contributors
 
-TODO
+Theme Contributors provide a way to package UI resources independent of a theme and include them on the page. There are theme contributors that come packaged out of the box in Portal.  These consist of UI resources that style the Product Menu, Control Menu, and Simulation Menu.
 
 ## Importing Resources
 
