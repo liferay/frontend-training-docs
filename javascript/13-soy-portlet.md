@@ -35,6 +35,18 @@ The file strucutre of a Soy Portlet would look similar to a regular portlet:
             - `MyComponent.soy`
             - `MyComponent.scss`
 
+`MySoyPortlet` can extend from the `SoyPortlet` class like this.
+
+```java
+public class MySoyPortlet extends SoyPortlet {
+
+    @Override
+    public void render(RenderRequest renderRequest, RenderResponse renderResponse) {
+        //do things here
+    }
+}
+```
+
 And here is what the Soy Template magic looks like:
 
 ```html
