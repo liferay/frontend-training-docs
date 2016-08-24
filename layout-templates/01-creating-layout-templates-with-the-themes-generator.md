@@ -55,20 +55,6 @@ Once the generator is done, you should see `docroot/{layout-name}.tpl` in your l
 </div>
 ```
 
-## Modifying Template Breakpoints
-
-When looking at `docroot/{layout-name}.tpl` you'll notice the following class being used on each column element.
-
-```
-col-md-{size}
-```
-
-This class comes from Bootstrap's grid system. It is what sets the percentage based width of every column, it is also responsible for determining the media query breakpoint (at what view port width the column is forced to 100% width).
-
-The different sizes available are `xs`, `sm`, `md`, and `lg`.
-
-For example, setting the column classes to `col-lg-{size}` means the columns would break to 100% width at a larger screen width than `col-md-{size}`.
-
 ## Deploying
 
 After the layout template generator is done, it installs npm dependencies used for deployment. To deploy, navigate to the layout template directory and invoke the following gulp task.
