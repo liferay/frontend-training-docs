@@ -36,6 +36,7 @@ As you can see Liferay has made it easy to make use of the new AlloyEditor. Belo
 	- `contents` (`java.lang.String`)
 	- `contentsLanguageId` (`java.lang.String`): The ID of a language for the input editor's text.
 	- `cssClass` (`java.lang.String`): A CSS class for styling the component.
+	- `data` (`java.util.Map`): data that can be used as the editorConfig
 	- `editorName` (`java.lang.String`)
 	- `name` (`java.lang.String`): A name for the input editor. The default value is editor.
 	- `onBlurMethod` (`java.lang.String`): A function to be called when the input editor loses focus.
