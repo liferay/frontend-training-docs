@@ -72,6 +72,8 @@ We can even customize the error message.
 
 <img src="images/forms-input-required-message.png" />
 
+There's a wide variety of build-in validators available. Check the [full documentation](https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/using-the-alloyui-validator-tag#available-validation-rules) for details.
+
 ## Dynamically/Conditionally Requiring an Input
 
 Sometimes you'll want to validate an input, based on the value of another input.
