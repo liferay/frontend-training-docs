@@ -54,7 +54,7 @@ Now, what if we want to ensure the user enters the required data? We'd then add 
 
 This will force the user to enter something into the input, before the form is submitted.
 
-<img src="images/forms-input-required.png" />
+![screenshot](images/forms-input-required.png)
 
 But lets say we wanted to restrict the value to a number between `0` and `10`. We can add additional validators. Each one will need to pass, in order for the form to submit.
 
@@ -70,7 +70,7 @@ We can even customize the error message.
 <aui:validator errorMessage="Please enter how many fingers you have." name="range">[0,10]</aui:validator>
 ```
 
-<img src="images/forms-input-required-message.png" />
+![screenshot](images/forms-input-required-message.png)
 
 There's a wide variety of build-in validators available. Check the [full documentation](https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/using-the-alloyui-validator-tag#available-validation-rules) for details.
 
@@ -92,7 +92,7 @@ You can do this by checking for that condition in a JavaScript function, in the 
 </aui:input>
 ```
 
-<img src="images/forms-input-required-condition.png" />
+![screenshot](images/forms-input-required-condition.png)
 
 ## Custom Validation
 
@@ -116,7 +116,7 @@ You can write your own validator, and optionally supplement it with built-in val
 
 This example runs the regular `email` validator, as well as your `custom` domain validator.
 
-<img src="images/forms-input-custom.png" />
+![screenshot](images/forms-input-custom.png)
 
 ## Add Additional Validation Via JavaScript
 
