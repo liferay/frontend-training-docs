@@ -149,7 +149,7 @@ Both structures and templates can be created/edited by navigating to the Web Con
     ```
     <h1>${Header.getData()}</h1>
 
-    <p>${Body.getData()}
+    <p>${Body.getData()}</p>
     ```
 
 ## Example Article
@@ -165,7 +165,7 @@ Both structures and templates can be created/edited by navigating to the Web Con
             <dynamic-content language-id="en_US"><![CDATA[My Header]]></dynamic-content>
         </dynamic-element>
         <dynamic-element name="Body" type="text_box" index-type="keyword" instance-id="opiq">
-            <dynamic-content language-id="en_US"><![CDATA[My Body]]></dynamic-content>
+            <dynamic-content language-id="en_US"><![CDATA[My body <em>with</em> HTML.]]></dynamic-content>
         </dynamic-element>
     </root>
     ```
