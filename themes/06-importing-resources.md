@@ -1,3 +1,5 @@
+**MOVED TO: 03-theme-development/06-importing-resources.md**
+
 # Importing Resources
 
 The Resources Importer allows developers to deploy their themes with predefined content. This is useful for showcasing a theme, and also provides a site template which can be used for creating new sites with a predefined look and feel.
