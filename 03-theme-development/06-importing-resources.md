@@ -32,7 +32,7 @@
  - As well as: layout templates, portlets, and portlet preferences.
  - A simple `sitemap.json` example:
 
-    ```
+    ```json
     {
         "layoutTemplateId": "2_columns_ii",
         "publicPages": [
@@ -59,7 +59,7 @@ This will create one page named `Welcome` that has two columns, one with the Log
  - Abstract summaries and small images can be applied to web content articles.
  - A simple `assets.json` example:
 
-    ```
+    ```json
     {
         "assets": [
             {
@@ -124,7 +124,7 @@ Similarly, `articles` that are affiliated with a template are nested in a direct
 ### Key Points
  - Example `My Example Structure H.json`:
 
-    ```
+    ```json
     {
         "availableLanguageIds": [ "en_US" ],
         "defaultLanguageId": "en_US",
@@ -146,7 +146,7 @@ Both structures and templates can be created/edited by navigating to the Web Con
 ### Key Points
  - Example `My Example Template A.flt`:
 
-    ```
+    ```flt
     <h1>${Header.getData()}</h1>
 
     <p>${Body.getData()}</p>
@@ -157,7 +157,7 @@ Both structures and templates can be created/edited by navigating to the Web Con
 ### Key Points
  - Example `My Example Article X.xml`:
 
-    ```
+    ```xml
     <?xml version="1.0"?>
 
     <root available-locales="en_US" default-locale="en_US">
@@ -182,7 +182,7 @@ To access the source XML of an article, navigate to the edit page of the article
  -
  - Example `sitemap.json`:
 
-    ```
+    ```json
     ...
     "columns": [
         [
