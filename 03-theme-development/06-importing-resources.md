@@ -3,15 +3,15 @@
 ## Using Resources Importer To Deploy Themes With Predefined Content
 
 ### Key Points
- - The Resources Importer allows developers to deploy their themes, with predefined content.
- - Useful for showcasing a theme.
- - Creates a site template, which can be used for creating new sites, with a predefined look and feel.
+- The Resources Importer allows developers to deploy their themes, with predefined content.
+- Useful for showcasing a theme.
+- Creates a site template, which can be used for creating new sites, with a predefined look and feel.
 
 ## Resources Importer's File Structure
 
 ### Key Points
- - All theme resources reside in the `{theme-name}/docroot/WEB-INF/src/resources-importer` directory.
- - Example file structure:
+- All theme resources reside in the `{theme-name}/docroot/WEB-INF/src/resources-importer` directory.
+- Example file structure:
 
     ```
     resources-importer/
@@ -28,9 +28,9 @@
 ## Resources Importer Creates A Site Template
 
 ### Key Points
- - The `sitemap.json` file defines the pages of a to-be-generated site template.
- - As well as: layout templates, portlets, and portlet preferences.
- - A simple `sitemap.json` example:
+- The `sitemap.json` file defines the pages of a to-be-generated site template.
+- As well as: layout templates, portlets, and portlet preferences.
+- A simple `sitemap.json` example:
 
     ```json
     {
@@ -54,10 +54,10 @@ This will create one page named `Welcome` that has two columns, one with the Log
 ## Importing Assets with Meta-data
 
 ### Key Points
- - The `assets.json` file specifies details about the assets to be imported.
- - Tags can be applied to any asset.
- - Abstract summaries and small images can be applied to web content articles.
- - A simple `assets.json` example:
+- The `assets.json` file specifies details about the assets to be imported.
+- Tags can be applied to any asset.
+- Abstract summaries and small images can be applied to web content articles.
+- A simple `assets.json` example:
 
     ```json
     {
@@ -79,8 +79,8 @@ This will create one page named `Welcome` that has two columns, one with the Log
 ## Importing Documents and Media
 
 ### Key Points
- - By default all assets, under the directory `document_library/documents/`, get imported into Portal's global Documents and Media.
- - Example file structure:
+- By default all assets, under the directory `document_library/documents/`, get imported into Portal's global Documents and Media.
+- Example file structure:
 
     ```
     document_library/
@@ -95,9 +95,9 @@ With this example file structure, `image.png` will be placed in the root folder 
 ## Importing Web Content
 
 ### Key Points
- - The `journal` directory is used for importing various assets related to web content.
- - Such as structures (JSON), templates (Velocity/Freemarker), and web content articles (XML).
- - Example file structure:
+- The `journal` directory is used for importing various assets related to web content.
+- Such as structures (JSON), templates (Velocity/Freemarker), and web content articles (XML).
+- Example file structure:
 
     ```
     journal/
@@ -122,7 +122,7 @@ Similarly, `articles` that are affiliated with a template are nested in a direct
 ## Example Structure
 
 ### Key Points
- - Example `My Example Structure H.json`:
+- Example `My Example Structure H.json`:
 
     ```json
     {
@@ -144,7 +144,7 @@ Both structures and templates can be created/edited by navigating to the Web Con
 ## Example Template
 
 ### Key Points
- - Example `My Example Template A.flt`:
+- Example `My Example Template A.flt`:
 
     ```flt
     <h1>${Header.getData()}</h1>
@@ -155,7 +155,7 @@ Both structures and templates can be created/edited by navigating to the Web Con
 ## Example Article
 
 ### Key Points
- - Example `My Example Article X.xml`:
+- Example `My Example Article X.xml`:
 
     ```xml
     <?xml version="1.0"?>
@@ -177,10 +177,10 @@ To access the source XML of an article, navigate to the edit page of the article
 ## Adding Web Content To The Sitemap
 
 ### Key Points
- - Add a Web Content Display portlet to one of our pages.
- - Point it to the correct article.
+- Add a Web Content Display portlet to one of our pages.
+- Point it to the correct article.
  -
- - Example `sitemap.json`:
+- Example `sitemap.json`:
 
     ```json
     ...
@@ -203,8 +203,8 @@ Here we will add the web content portlet directly below the Hello World portlet.
 ## Deploying Resources
 
 ### Key Points
- - Now that you have the necessary `sitemap.json` and `journal` assets, simply deploy your theme.
- - With the default configuration, the resources importer will create a site template sharing the name of your theme.
+- Now that you have the necessary `sitemap.json` and `journal` assets, simply deploy your theme.
+- With the default configuration, the resources importer will create a site template sharing the name of your theme.
 
 ![Site Templates](images/06-importing-resources_site-template.png)
 
@@ -215,8 +215,8 @@ You can also create a new site based off the site template, which will contain a
 ## Importing Resources to Existing Sites
 
 ### Key Points
- - To configure resources importer to import resources into an existing site, rather than a site template.
- - Add the following properties to: `{theme-name}/src/WEB-INF/liferay-plugin-package.properties`.
+- To configure resources importer to import resources into an existing site, rather than a site template.
+- Add the following properties to: `{theme-name}/src/WEB-INF/liferay-plugin-package.properties`.
 
     ```
     ...
@@ -229,8 +229,8 @@ You can also create a new site based off the site template, which will contain a
 ## Developer Mode
 
 ### Key Points
- - Resources Importer has a developer mode, which deletes and re-creates the target site or site template on each deploy.
- - To enable developer mode add the folloing to: `liferay-plugin-package.properties`
+- Resources Importer has a developer mode, which deletes and re-creates the target site or site template on each deploy.
+- To enable developer mode add the folloing to: `liferay-plugin-package.properties`
 
     ```
     ...
@@ -238,5 +238,5 @@ You can also create a new site based off the site template, which will contain a
     ...
     ```
 
- - Themes created via the Themes Generator have  developer mode enabled by default.
- - While this is useful for development, it should never be used in a production environment.
+- Themes created via the Themes Generator have  developer mode enabled by default.
+- While this is useful for development, it should never be used in a production environment.
