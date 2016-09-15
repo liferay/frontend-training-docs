@@ -1,3 +1,5 @@
+**MOVED TO: 03-theme-development/07-theme-contributors.md**
+
 # Theme Contributors
 
 If you would like to package UI resources, independent of a specific theme, and include them on the page, Theme Contributors are the tool for you.
@@ -14,7 +16,7 @@ Specifically, the Control Menu, Product Menu, and Simulation Panel, are packaged
 
 ![](images/05-theme-contributors_menus-diagram.png)
 
-If you want to edit or style these standard UI components, you’ll need to modify the module directly and rebuild it. 
+If you want to edit or style these standard UI components, you’ll need to modify the module directly and rebuild it.
 
 To identify your module as a theme contributor add the `Liferay-Theme-Contributor-Type` property to the bnd.bnd file.  For example the Control Menu has the configuration below:
 
