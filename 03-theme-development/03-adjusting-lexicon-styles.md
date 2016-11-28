@@ -1,3 +1,0 @@
-# Adjusting Lexicon Styles
-
-## TODO

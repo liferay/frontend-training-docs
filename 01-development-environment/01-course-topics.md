@@ -1,3 +1,0 @@
-# Course Topics
-
-## TODO

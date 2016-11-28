@@ -1,3 +1,0 @@
-# Generating Layout Templates
-
-## TODO

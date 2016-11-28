@@ -1,3 +1,0 @@
-# Basic Soy Syntax
-
-## TODO

@@ -1,3 +1,0 @@
-# Metal.js
-
-## TODO
